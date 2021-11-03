@@ -12,7 +12,7 @@ class LambdaDemo extends Component {
   }
   
   toggleDarkMode() {
-    const toggle = this.state.background == light ? dark: light;
+    const toggle = this.state.background === light ? dark: light;
     this.setState({background: toggle});
   }
 

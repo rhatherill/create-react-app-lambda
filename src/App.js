@@ -21,7 +21,7 @@ class LambdaDemo extends Component {
 
     return (
       <p>
-        <button onClick={this.toggleDarkMode}</button>
+        <button onClick={this.toggleDarkMode}>Dark Mode</button>
         <br />
         <span>{msg}</span>
       </p>
